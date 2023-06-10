@@ -94,18 +94,26 @@ endmodule
 ~~~
 
 ## RTL Schematic:
+SR-Flipflop
 <img width="821" alt="exp5 dia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/3d7d1368-51ff-455f-a0ca-8cdc190d5005">
+D-Flipflop
 <img width="473" alt="exp5bdia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/2aad1588-e3ea-4b14-b399-434c07a883f8">
+JK-Flipflop
 <img width="503" alt="exp5cdia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/56b183eb-cf95-4c8a-b4dc-ba8a8fa45749">
+T-Flipflop
 <img width="433" alt="exp5ddia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/a63cdd77-4f90-4a28-94cb-c19cc4b9af15">
 
 
 
 
 ## Timing Diagram:
-
+SR-Flipflop
+[exp5out](https://github.com/Divyagitup/Flipflops/assets/134514564/b6cb1f3b-952f-4f41-a170-82232844f795)
+D-Flipflop
 <img width="691" alt="exp5bout" src="https://github.com/Divyagitup/Flipflops/assets/134514564/b0fb686d-48d7-4aef-8bcb-22ca64df9b4d">
+JK-Flipflop
 <img width="733" alt="exp5cout" src="https://github.com/Divyagitup/Flipflops/assets/134514564/9947688e-2735-48a6-a342-b2efa1c0173f">
+T-Flipflop
 <img width="671" alt="exp5dout" src="https://github.com/Divyagitup/Flipflops/assets/134514564/da6f4814-f095-455c-9a3a-78d26caefbb4">
 
 
