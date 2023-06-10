@@ -43,15 +43,70 @@ In T flip flop, "T" defines the term "Toggle". In SR Flip Flop, we provide only 
 
 
 ## Program:
-
+~~~
+SR-Flipflop
+module exp5a(s,r,clk,q,qbar);
+input s,r,clk;
+output reg q;
+output qbar;
+always@(posedge clk)
+begin
+q=s|((~r)&q);
+end
+assign qbar=~q;
+endmodule
+~~~
+D-Flipflop
+module exp5b(d,clk,q,qbar);
+input d,clk;
+output reg q;
+output qbar;
+always@(posedge clk)
+begin
+q=((~q)&d)|(q&d);
+end
+assign qbar=~q;
+endmodule
+~~~
+JK-Flipflop
+module exp5c(j,k,clk,q,qbar);
+input j,k,clk;
+output reg q;
+output qbar;
+always@(posedge clk)
+begin
+q=((~q)&j)|(q&(~k));
+end
+assign qbar=~q;
+endmodule
+~~~
+T-Flipflop
+module exp5d(t,clk,q,qbar);
+input t,clk;
+output reg q;
+output qbar;
+always@(posedge clk)
+begin
+q=((~q)&t)|(q&(~t));
+end
+assign qbar=~q;
+endmodule
+~~~
 
 ## RTL Schematic:
+<img width="821" alt="exp5 dia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/3d7d1368-51ff-455f-a0ca-8cdc190d5005">
+<img width="473" alt="exp5bdia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/2aad1588-e3ea-4b14-b399-434c07a883f8">
+<img width="503" alt="exp5cdia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/56b183eb-cf95-4c8a-b4dc-ba8a8fa45749">
+<img width="433" alt="exp5ddia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/a63cdd77-4f90-4a28-94cb-c19cc4b9af15">
 
 
 
 
 ## Timing Diagram:
 
+<img width="691" alt="exp5bout" src="https://github.com/Divyagitup/Flipflops/assets/134514564/b0fb686d-48d7-4aef-8bcb-22ca64df9b4d">
+<img width="733" alt="exp5cout" src="https://github.com/Divyagitup/Flipflops/assets/134514564/9947688e-2735-48a6-a342-b2efa1c0173f">
+<img width="671" alt="exp5dout" src="https://github.com/Divyagitup/Flipflops/assets/134514564/da6f4814-f095-455c-9a3a-78d26caefbb4">
 
 
 ## Result:
