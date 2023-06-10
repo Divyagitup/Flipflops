@@ -56,6 +56,7 @@ end
 assign qbar=~q;
 endmodule
 ~~~
+~~~
 D-Flipflop
 module exp5b(d,clk,q,qbar);
 input d,clk;
@@ -68,6 +69,7 @@ end
 assign qbar=~q;
 endmodule
 ~~~
+~~~
 JK-Flipflop
 module exp5c(j,k,clk,q,qbar);
 input j,k,clk;
@@ -79,6 +81,7 @@ q=((~q)&j)|(q&(~k));
 end
 assign qbar=~q;
 endmodule
+~~~
 ~~~
 T-Flipflop
 module exp5d(t,clk,q,qbar);
