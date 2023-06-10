@@ -99,7 +99,7 @@ endmodule
 ## RTL Schematic:
 
 SR-Flipflop
-<img width="821" alt="exp5 dia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/3d7d1368-51ff-455f-a0ca-8cdc190d50
+<img width="821" alt="exp5 dia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/1d851e38-9670-4741-9c21-41910c5f5218">
 
 D-Flipflop
 <img width="473" alt="exp5bdia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/2aad1588-e3ea-4b14-b399-434c07a883f8">
@@ -117,7 +117,7 @@ T-Flipflop
 ## Timing Diagram:
 
 SR-Flipflop
-[exp5out](https://github.com/Divyagitup/Flipflops/assets/134514564/b6cb1f3b-952f-4f41-a170-82232844f795)
+![exp5out](https://github.com/Divyagitup/Flipflops/assets/134514564/1c95eebb-60a6-48e3-87f2-9c84acb701be)
 
 D-Flipflop
 <img width="691" alt="exp5bout" src="https://github.com/Divyagitup/Flipflops/assets/134514564/b0fb686d-48d7-4aef-8bcb-22ca64df9b4d"> 
