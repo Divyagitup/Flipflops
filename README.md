@@ -97,7 +97,7 @@ endmodule
 ~~~
 
 ## RTL Schematic:
-~~~
+
 SR-Flipflop
 <img width="821" alt="exp5 dia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/3d7d1368-51ff-455f-a0ca-8cdc190d50
 
@@ -109,13 +109,13 @@ JK-Flipflop
 
 T-Flipflop
 <img width="433" alt="exp5ddia" src="https://github.com/Divyagitup/Flipflops/assets/134514564/a63cdd77-4f90-4a28-94cb-c19cc4b9af15">
-~~~
+
 
 
 
 
 ## Timing Diagram:
-~~~
+
 SR-Flipflop
 [exp5out](https://github.com/Divyagitup/Flipflops/assets/134514564/b6cb1f3b-952f-4f41-a170-82232844f795)
 
@@ -127,7 +127,7 @@ JK-Flipflop
 
 T-Flipflop
 <img width="671" alt="exp5dout" src="https://github.com/Divyagitup/Flipflops/assets/134514564/da6f4814-f095-455c-9a3a-78d26caefbb4">
-~~~
+
 
 ## Result:
 Thus the SR, D, JK and T flipflops are implemented and the characteristic tables are verified.
