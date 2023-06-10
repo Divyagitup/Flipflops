@@ -124,7 +124,7 @@ SR-Flipflop
 ~~~
 ~~~
 D-Flipflop
-<img width="691" alt="exp5bout" src="https://github.com/Divyagitup/Flipflops/assets/134514564/b0fb686d-48d7-4aef-8bcb-22ca64df9b4d">
+<img width="691" alt="exp5bout" src="https://github.com/Divyagitup/Flipflops/assets/134514564/b0fb686d-48d7-4aef-8bcb-22ca64df9b4d"> 
 ~~~
 ~~~
 JK-Flipflop
